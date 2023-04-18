@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+     
+ }
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex:1;
+  }
+  .ethiopia-coffee-hdr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ethiopia-coffee-hdr-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2{
+    max-width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
